@@ -38,7 +38,7 @@ function CustomerForm() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
           {/* Left Section */}
-          <div className="space-y-9">
+          <div className="space-y-8">
             <div>
               <label className="block text-gray-700 text-sm font-medium mb-2">
                 First Name
