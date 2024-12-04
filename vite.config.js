@@ -1,10 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "testreact",
   server: {
-    open: true,  // Ensures the browser opens automatically
-  }
-})
+    open: true, // Ensures the browser opens automatically
+  },
+});
