@@ -9,8 +9,8 @@ import {
 } from "react-icons/fa"; // React Icons
 
 function Sidebar() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [isDashboardOpen, setIsDashboardOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isDashboardOpen, setIsDashboardOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
